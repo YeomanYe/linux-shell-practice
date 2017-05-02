@@ -8,6 +8,7 @@
 该章介绍了许多常用的命令，连接命令(cat)，脚本记录命令(script)，查找命令(find)，交互自动化(interaction_auto)，拼写(aspell)，完整性(md5sum)，重命名（rename），排序（sort_uniq），临时文件(tempfile)，分割(split)，转换(tr)，命令行参数(xargs)，变量切割(%)
 
 ## 第3章 以文件之名
-该章介绍了许多操作文本的命令，设置不可修改(chattr)，权限(chmod_chown)，文本比较(comm)，生成特定大小文件(dd)，不同与补丁(diff_patch)，文件类型(file)，显示头尾行(head_tail)，光盘文件(ISO)，链接文件(ln)，环回文件(loopback_file)，生成文件夹(mkdir)，路径堆栈(pushd_popd)，删除重复文件脚本(remove_duplicate)，更改文件时间(touch)，树形目录(tree)，统计(wc)
+该章介绍了许多操作文件的命令，设置不可修改(chattr)，权限(chmod_chown)，文本比较(comm)，生成特定大小文件(dd)，不同与补丁(diff_patch)，文件类型(file)，显示头尾行(head_tail)，光盘文件(ISO)，链接文件(ln)，环回文件(loopback_file)，生成文件夹(mkdir)，路径堆栈(pushd_popd)，删除重复文件脚本(remove_duplicate)，更改文件时间(touch)，树形目录(tree)，统计(wc)
 
 ## 第4章 让文本飞
+该章介绍了许多操作文本的命令和方法，列切割(cut)，文本操作三利器(awk、grep、sed)，压缩JS代码的脚本(compress_js)，检测回文数(check_palindrome)，按列拼接(paste)，正则表达式(regex)，变量切割字符串(slice)，反向拼接(tac)，统计文件中的单词频率(word_freq)，迭代行、单词、字符(word_line_char)
