@@ -77,3 +77,17 @@ sub(regex,replacement_str,string)：替换字符串
 gsub(regex,replacement_str,string) 替换所有内容
 match(regex,string) 匹配到返回非0;match有两个相关的特殊变量，RSTART（匹配内容的起始位置）、RLENGTH（匹配到的长度）
 '
+
+# 打印4到6行
+seq 100 | awk 'NR==4,NR==6'
+
+# 打印处于两个样式之间的文本
+: '
+cat section.txt
+line with pattern1
+line with pattern2
+line with pattern3
+line end with pattern4
+line with pattern5
+'
+awk '/pa.*3/,/end/' section.txt

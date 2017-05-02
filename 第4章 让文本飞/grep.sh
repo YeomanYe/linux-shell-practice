@@ -63,3 +63,13 @@ seq 10 | grep 5 -A 3
 seq 10 | grep 5 -B 3
 # 匹配前后3行
 seq 10 | grep 5 -C 3
+
+: '
+cat url_email.txt
+this is a line of text contains,<email> #slynux@slynux.com.</email>
+and email address,blog "http://www.google.com", test@yahoo.com
+'
+# 从文本中提取电子邮件
+egrep -o '[A-Za-z0-9.]+@[A-Za-z0-9.]+\.[a-zA-Z]{2,4}' url_email.txt
+# 获取HTTP URL
+egrep -o "http://[a-zA-Z0-9.]+\.[a-zA-Z]{2,3}" url_email.txt
