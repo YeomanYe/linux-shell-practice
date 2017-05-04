@@ -16,6 +16,5 @@ wget --mirror URL
 wget -r -N -l DEPTH URL
 # 访问需要认证的HTTP或FTP页面
 wget --user username --password pass URL
-
-# 使用curl下载
-curl URL > index.html
+# 使用POST方式发送数据
+wget URL -post-data "name=value" -O output.html

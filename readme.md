@@ -12,3 +12,6 @@
 
 ## 第4章 让文本飞
 该章介绍了许多操作文本的命令和方法，列切割(cut)，文本操作三利器(awk、grep、sed)，压缩JS代码的脚本(compress_js)，检测回文数(check_palindrome)，按列拼接(paste)，正则表达式(regex)，变量切割字符串(slice)，反向拼接(tac)，统计文件中的单词频率(word_freq)，迭代行、单词、字符(word_line_char)
+
+## 第5章 一团乱麻？没这回事
+该章介绍了网站的命令、方法还有一些实用脚本，下载链接(wget)，不同的方式访问网站(cURL)，获取慕课网的课程信息(course_info)，获得网页改变信息(change_track)，找到无效的链接(find_broken)，下载网页上的图片(img_downloader)，生成网页图片廊(imagemagick),以文本的形式展示网页(lynx)

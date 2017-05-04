@@ -38,3 +38,6 @@ curl -u user URL
 
 # -I或-head只打印头部信息
 curl -I http://www.baidu.com
+
+# 发送POST请求
+curl URL -d "postvar=data&postvar2=data2"
