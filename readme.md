@@ -17,3 +17,6 @@
 该章介绍了网站的命令、方法还有一些实用脚本，下载链接(wget)，不同的方式访问网站(cURL)，获取慕课网的课程信息(course_info)，获得网页改变信息(change_track)，找到无效的链接(find_broken)，下载网页上的图片(img_downloader)，生成网页图片廊(imagemagick),以文本的形式展示网页(lynx)
 
 ## 第6章 B计划
+该章介绍了归档压缩命令、加解密、备份脚本、版本控制工具等，归档命令(tar、cpio)，压缩命令(bzip2、gzip、lzma、zip)、克隆磁盘(dd)、加解密(encrypt)、使用git定期备份(git)、使用rsync定期备份(rsync)
+
+## 第7章 无网不利

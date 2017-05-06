@@ -21,5 +21,5 @@ rsync -avz source_path destination_path --delete
 
 # 定时调度
 crontab -e
-# 在其中添加这么一行
+# 在其中添加这么一行，表示10小时执行一次
 0 */10 * * * rsync -avz /home/code user@IP_ADDRESS:/home/backups
