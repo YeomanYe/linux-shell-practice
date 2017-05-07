@@ -1,4 +1,4 @@
-#/bin/bash -xv
+#!/bin/bash -xv
 
 # 返回匹配的行,可以对多个文件搜索
 grep "word" filename1 filename2
