@@ -25,3 +25,8 @@ ssh -C user@hostname COMMANDS
 echo "text" | ssh user@remote_host 'cat >> list'
 # 将文件中的数据重定向
 ssh user@remote_host 'cat >> list' < file
+
+# 将位于远程主机上的文件系统挂载到本地挂载点
+sshfs user@remotehost:/home/path /mnt/mountpoint
+# 完成任务后，可用下面的方法卸载
+umount /mnt/mountpoint
