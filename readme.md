@@ -20,3 +20,6 @@
 该章介绍了归档压缩命令、加解密、备份脚本、版本控制工具等，归档命令(tar、cpio)，压缩命令(bzip2、gzip、lzma、zip)、克隆磁盘(dd)、加解密(encrypt)、使用git定期备份(git)、使用rsync定期备份(rsync)
 
 ## 第7章 无网不利
+该章介绍了许多与网络相关的命令，以太网连接脚本(etherconnect)、网络信息查看(ifconfig)、查看端口及运行的服务(lsof)、连接测试(ping)、使用ssh连接远程主机(ssh)、wifi连接脚本(wifi_connect)
+
+## 第8章 当个好管家
