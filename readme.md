@@ -23,3 +23,6 @@
 该章介绍了许多与网络相关的命令，以太网连接脚本(etherconnect)、网络信息查看(ifconfig)、查看端口及运行的服务(lsof)、连接测试(ping)、使用ssh连接远程主机(ssh)、wifi连接脚本(wifi_connect)
 
 ## 第8章 当个好管家
+该章介绍了许多管理操作系统的命令和脚本，监视用户活跃情况并生成报告文件脚本(active_users)、监视远程系统磁盘使用情况脚本(disklog)、磁盘空间使用情况(du)、入侵报告脚本(intruder_detect)、配置日志管理文件(logrotate)、监视并计算一定时间内CPU使用情况(pcpu_usage)、使用syslog记录日志(syslog)、命令使用时间统计(time)、获取最常用的10个命令(top10_command)、监视命令输出(watch)、监视目录访问(watchdir)、用户信息(user_info)
+
+## 第9章 管理重任
