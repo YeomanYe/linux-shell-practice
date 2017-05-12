@@ -26,3 +26,4 @@
 该章介绍了许多管理操作系统的命令和脚本，监视用户活跃情况并生成报告文件脚本(active_users)、监视远程系统磁盘使用情况脚本(disklog)、磁盘空间使用情况(du)、入侵报告脚本(intruder_detect)、配置日志管理文件(logrotate)、监视并计算一定时间内CPU使用情况(pcpu_usage)、使用syslog记录日志(syslog)、命令使用时间统计(time)、获取最常用的10个命令(top10_command)、监视命令输出(watch)、监视目录访问(watchdir)、用户信息(user_info)
 
 ## 第9章 管理重任
+该章介绍了信息查询还有任务调度等脚本,查看命令所在位置(which)，向终端用户发送消息(wall),用户管理脚本(user_adm),为脚本分配信号处理程序(trap)，打印进程信息(ps_top_pgrep)，查询进程中的信息(proc)，操作系统信息(os_info)，发送信号(kill)，图像处理脚本(imagemagick)，任务调度(cron)，mysql操作与配置(mysql)
